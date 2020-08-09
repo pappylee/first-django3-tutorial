@@ -118,3 +118,12 @@ Note: To see the status of your git repository, type:
 $ git status
 
 Note: At this point, we will get a message that there is no commit yet and that files are untracked
+
+3. Type: git add -A
+[Note: this is staging, no commits yet]
+[Note: Status check at this stage will show all the files that has been staged]
+[Note: (use "git rm --cached <file>..." to unstage)]
+
+4. Type: git commit -m "My First Commit"
+[Note: the -m is to enable us put a comment and the comment in this case is "My First Commit"]
+
